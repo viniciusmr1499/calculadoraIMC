@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>three APP</title>
+</head>
+<body>
+
+    <video autoplay="true" loop="true">
+        <!-- <source  src="https://player.vimeo.com/external/224889046.sd.mp4?s=2367519c7cd59a961688a3e7ba52c078076ec2d2&profile_id=164&oauth2_token_id=57447761">  -->
+           <!-- <source src="https://player.vimeo.com/external/298808280.sd.mp4?s=d438fd942d0070e46ad3a1c99b0f19875932d21c&profile_id=164&oauth2_token_id=57447761"> -->
+        <!-- <source src="https://player.vimeo.com/external/210741471.sd.mp4?s=6e09dcd6ddd54dcc63ed26632f38b8684133cce6&profile_id=164&oauth2_token_id=57447761" type=""> -->
+        <!-- <source src="https://player.vimeo.com/external/357005099.sd.mp4?s=a95b2118e2fa52097ad9933b56d50ebcc9f2f1c9&profile_id=139&oauth2_token_id=57447761" type=""> -->
+        <!-- <source src="https://player.vimeo.com/external/327335901.sd.mp4?s=ae442bf07db3d94a94b6847e4a1359c5204ab871&profile_id=164&oauth2_token_id=57447761" type="">    -->
+        <source src="https://player.vimeo.com/external/288484037.sd.mp4?s=4b5e8ae728da50876e684a5c64626760b314bf00&profile_id=164&oauth2_token_id=57447761" type="">
+    </video>
+
+
+    <div class="box">
+        <h1>Calculadora de IMC</h1>
+        <p>
+            <label for="name">Nome</label>
+            <input type="text" style="width:300px;" placeholder="Ex: Marcos" id="name" required>
+        </p>
+
+        <p>
+            <label for="age">Idade</label>
+            <input type="number" style="width:200px;" id="age" placeholder="Ex: 20" required> 
+        </p>
+        <p>
+            <label for="altura">Altura</label>
+            <input type="number" style="width:100px;" id="altura" placeholder="Ex: 1,83" required>
+        </p>
+        <p>
+            <label for="peso">Peso</label>
+            <input type="number" style="width:70px;" id="peso" placeholder="Ex: 80" required> <small>Kg</small>
+        </p>
+        <button type="button" id="calc">Calcular</button>
+        
+        <div class="box-two">
+            <h1 class="box_two_title">Resultado - imc</h1>
+            <h3>↓↓ Suas informações ↓↓</h3>  
+            
+            <span><strong>Nome:</strong></span>
+            <div class="txtb"></div>
+            
+            <span><strong>Idade:</strong></span>
+            <div class="txtb"></div>
+
+            <span><strong>Altura:</strong></span>
+            <div class="txtb"></div>
+
+            <span><strong>Peso:</strong></span>
+            <div class="txtb"></div>
+
+            <span><strong>IMC:</strong></span>
+            <div class="txtb"></div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
